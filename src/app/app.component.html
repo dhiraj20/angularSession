@@ -1,1 +1,13 @@
-<router-outlet></router-outlet>
+<div class="container">
+    <div fxLayout="row" fxLayoutAlign="start center" class="header">
+        <app-header></app-header>
+    </div>
+    <div fxLayout="row">
+        <div>
+            <app-side-nav></app-side-nav>
+        </div>
+        <div>
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

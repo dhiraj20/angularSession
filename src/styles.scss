@@ -1,2 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+$heade-size: 25px;
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.f-20 {
+    font-size: 20px;
+}
+
+.wrapper {
+    padding: 35px;
+
+    .header {
+        font-size: $heade-size;
+        font-weight: 500;
+        color: #01060E;
+    }
+}

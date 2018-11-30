@@ -1,0 +1,4 @@
+<div class="sidenav">
+    <a *ngFor="let topic of topicList; let i = index" class="pointer" [ngClass]="active"
+       (click)="chnageActiveIndex(i)" [routerLink]="topic.path">{{topic.title}}</a>
+</div>
