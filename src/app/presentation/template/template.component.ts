@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TemplateComponent implements OnInit {
 
+  template = '( {{...}} )';
+  name = '{{name}}';
+  getValue = '{{getValue()}}';
+
   constructor() { }
 
   ngOnInit() {

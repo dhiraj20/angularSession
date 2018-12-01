@@ -13,7 +13,7 @@ export class SideNavComponent implements OnInit {
     { title: 'Introduction', path: '/introduction', isSelected: false },
     { title: 'Components', path: '/components', isSelected: false },
     { title: 'Modules', path: '/modules', isSelected: false },
-    { title: 'Template Syntax', path: '/template', isSelected: false },
+    { title: 'Template', path: '/template', isSelected: false },
     { title: 'Directives', path: '/directives', isSelected: false },
     { title: 'Pipes', path: '/pipes', isSelected: false },
     { title: 'Forms', path: '/forms', isSelected: false },
