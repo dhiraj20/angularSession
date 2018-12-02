@@ -17,6 +17,7 @@ import { DirectivesComponent } from './presentation/directives/directives.compon
 import { PipesComponent } from './presentation/pipes/pipes.component';
 import { FormsComponent } from './presentation/forms/forms.component';
 import { RoutingComponent } from './presentation/routing/routing.component';
+import { ComponentInteractionComponent } from './presentation/component-interaction/component-interaction.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { RoutingComponent } from './presentation/routing/routing.component';
     DirectivesComponent,
     PipesComponent,
     FormsComponent,
-    RoutingComponent
+    RoutingComponent,
+    ComponentInteractionComponent
   ],
   imports: [
     BrowserModule,
