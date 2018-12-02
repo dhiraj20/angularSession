@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PipesComponent implements OnInit {
 
+  pipes = ['lowercase', 'uppercase', 'currency', 'percentage', 'date'];
   constructor() { }
 
   ngOnInit() {

@@ -16,14 +16,8 @@ export class SideNavComponent implements OnInit {
     { title: 'Template', path: '/template', isSelected: false },
     { title: 'Directives', path: '/directives', isSelected: false },
     { title: 'Pipes', path: '/pipes', isSelected: false },
+    { title: 'Routing', path: '/routing', isSelected: false },
     { title: 'Forms', path: '/forms', isSelected: false },
-    // { title: 'Introduction', path: '' },
-    // { title: 'Introduction', path: '' },
-    // { title: 'Introduction', path: '' },
-    // { title: 'Introduction', path: '' },
-    // { title: 'Introduction', path: '' },
-    // { title: 'Introduction', path: '' },
-    // { title: 'Introduction', path: '' },
   ];
 
   ngOnInit() {

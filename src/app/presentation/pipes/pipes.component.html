@@ -1,3 +1,15 @@
-<p>
-  pipes works!
-</p>
+<div class="wrapper" fxLayout="column" fxLayoutAlign="center center">
+  <div class="f-30 red-c">Pipes</div>
+  <div class="m-15 f-20">A pipe takes in data as input and transforms it to a desired output</div>
+</div>
+
+<div class="m-15 f-20">
+  <div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="20px" class="pipes div-align">
+    <div *ngFor="let pipe of pipes" class="pipe-color arr-color width" fxLayoutAlign="center center">{{pipe}}</div>
+  </div>
+</div>
+
+<div class="f-20 link-tag">
+  <a href="https://stackblitz.com/edit/anguar-session-pipes?file=src%2Fapp%2Fapp.component.html" target="_blank">Examples
+    for Pipes</a>
+</div>

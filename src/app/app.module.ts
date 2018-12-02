@@ -16,6 +16,7 @@ import { TemplateComponent } from './presentation/template/template.component';
 import { DirectivesComponent } from './presentation/directives/directives.component';
 import { PipesComponent } from './presentation/pipes/pipes.component';
 import { FormsComponent } from './presentation/forms/forms.component';
+import { RoutingComponent } from './presentation/routing/routing.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FormsComponent } from './presentation/forms/forms.component';
     TemplateComponent,
     DirectivesComponent,
     PipesComponent,
-    FormsComponent
+    FormsComponent,
+    RoutingComponent
   ],
   imports: [
     BrowserModule,
